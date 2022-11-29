@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AXA_DemoAPI_DAL\AXA_DemoAPI_DAL.csproj" />
+    <ProjectReference Include="..\Axa_DemoAPI_Domain\Axa_DemoAPI_Domain.csproj" />
+  </ItemGroup>
+
+</Project>
