@@ -16,6 +16,20 @@ namespace AXA_DemoAPI_DAL.Repositories
         public ClientRepository()
         {
             clients = new List<Client>();
+            clients.Add(new Client
+            {
+                Email = "arthur@mail.com",
+                Lastname = "Pendragon",
+                Firstname = "Arthur",
+                ID = currentId++,
+            });
+            clients.Add(new Client
+            {
+                Email = "merlin@mail.com",
+                Lastname = "L'enchanteur",
+                Firstname = "Merlin",
+                ID = currentId++,
+            });
         }
 
         public List<Client> GetAll()
